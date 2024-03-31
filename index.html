@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkin Park</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #506E6A;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;/*centraliza o menu*/
+            gap: 20px;/*https://nekocalc.com/px-to-rem-converter*/
+        }
+
+
+        .imagem_leo {
+            grid-column-start: 1;
+            grid-column-end: 3;
+
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #506E6A;
+            color: white;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            color: #506E6A;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #506E6A 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #506E6A;
+            color: white;
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .imagem_leo {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Biografia Linkin Park</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Biografia</a></li>
+            <li><a href="albuns.html">Álbuns</a></li>
+            <li><a href="curiosidades.html">Curiosidades</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="imagem_leo">
+            <img src="linkin.png">
+            <div class="infos">
+                <p><strong>Genêro:</strong>
+                    Rock alternativo, nu metal, rap rock, rap metal </p>
+                <p><strong>Ano do Surgimento:</strong>
+                    1996
+                </p>
+                <p><strong>Integrantes: </strong>
+                    Mike Shinoda, Brad Delson, Dave Farrell, Joe Hahn, Rob Bourdon Chester Bennington (membros fundadores) e Mark Wakefield e o Kyle Christner (ex-membros).</p>
+            </div>
+
+        </aside>
+        <section class="principal">
+            <h1>
+                Linkin Park
+            </h1>
+            <p>Linkin Park é uma banda estadunidense de rock formada em 1996 em Agoura Hills, na Califórnia.
+
+                A banda é formada por Mike Shinoda (vocalista), Brad Delson (guitarra), Dave Farrell (baixista), Joe Hahn (DJ) e Rob Bourdon (baterista). Por muitos anos, foi formada também por Chester Bennington no vocal, mas o cantor morreu em 2017.
+                
+                Linkin Park lançou seu primeiro álbum, “Hibrid Theory”, em 2000, que se tornou o mais vendido de 2001. Recebeu um Grammy de Melhor Performance, além de indicações para o Melhor Álbum de Rock e Melhor Revelação.
+                <br><br>
+                 O segundo álbum, “Meteora” foi classificado no topo na lista do Billboard 200. Em 2003, a banda foi nomeada pela MTV2 a sexta maior da era de videoclipes e também a terceira melhor banda, depois de Oasis e Coldplay.
+                <br>
+                <br>
+                O terceiro álbum de estúdio “Minutes to Midnight”, atingiu o topo das paradas e foi o disco mais vendido em 2007. Em 2010, lançou “The Tousand Suns”, que logo se tornou líder em vendas em mais de quinze países. Em 2014, lançou “The Hunting Party”, que reúne todos os gêneros dos trabalhos anteriores.</p>
+        </section>
+    </div>
+    <footer class="container">
+        <h1>Desenvolvido para fins educacionais</h1>
+    </footer>
+    </div>
+</body>
+
+</html>
